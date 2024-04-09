@@ -26,7 +26,7 @@ for EXECUTORS in 1 2 4 8 16 32 64
 do 
     echo ${EXECUTORS}
     tic=`date +%s`
-    PYSPARK_PYTHON=/usr/local/bin/python3.7 spark-submit  \
+    PYSPARK_PYTHON=/usr/bin/python3.7 spark-submit  \
                   --master yarn  \
                   --driver-memory 10g  \
                   --executor-memory ${EM}  \

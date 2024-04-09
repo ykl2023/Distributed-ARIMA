@@ -10,7 +10,7 @@ EM=2g
 # MODEL_FILE
 MODEL_DESCRIPTION=$1
 MODEL_FILE=run_darima
-OUTPATH=/home/student/.xiaoqian/darima/result/
+OUTPATH=gs://bucket-st446-project-ykl/
 SERIES_NAME=TOTAL
 
 # Get current dir path for this script
